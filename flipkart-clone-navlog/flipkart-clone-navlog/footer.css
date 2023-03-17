@@ -1,0 +1,88 @@
+
+#mainFooterDiv{
+    bottom: 0%;
+    height: 300px;
+    display: flex;
+    background-color: rgb(23,35,55);
+    color: white;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 15px;
+    padding-top: 35px;
+}
+
+#secondFooterDivLeft{
+    display: flex;
+    width: 60%;
+    /* margin-left: 40px; */
+    padding-left: 60px;
+}
+
+#secondFooterDivLeft div{
+    margin: 0 20px;
+}
+
+#secondFooterDivRight{
+display: flex;
+width: 40%;
+line-height: 20px;
+}
+
+#secondFooterDivRight div{
+margin: 0 20px;
+}
+
+#firstChildOfEachDiv{
+color: rgb(135,135,135);
+}
+#firstChildOfEachDiv ~ p{
+     padding-bottom: 8px;
+
+}
+#secondFooterDivLeft p{
+    margin: 7px 0;
+    cursor: pointer;
+}
+
+#firstChildOfEachDiv{
+    /* margin: 10px 0; */
+    cursor: none;
+    /* padding-top: 20px; */
+}
+
+#secondFooterDivLeft p:hover{
+    text-decoration: underline;
+}
+
+#contectDetails{
+color:#2874f0;
+}
+
+.footer {
+    border: 1px solid;
+    height: 80px;
+    text-align: center; 
+    background-color: #172337;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    padding: 0px 50px;
+    width: 100%;
+  }
+  .footer img {
+    height: 18px;
+    margin: auto ;
+  }
+  .footer p {
+    color: white;
+    margin: auto ;
+    cursor: pointer;
+    font-size: 15px;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#firstChildOfEachDiv ~ p {
+    font-size: 10px;
+}
